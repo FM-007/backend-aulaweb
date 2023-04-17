@@ -1,0 +1,17 @@
+{
+  "name": "backweb",
+  "version": "1.0.0",
+  "description": "Servidor criado na aula de desenvolvimento web",
+  "main": "servidor.js",
+  "scripts": {
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Moreira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.7"
+  }
+}
