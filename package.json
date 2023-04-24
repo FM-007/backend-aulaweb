@@ -1,17 +1,25 @@
 {
   "name": "backweb",
   "version": "1.0.0",
-  "description": "Servidor criado na aula de desenvolvimento web",
+  "description": "Projeto criado na aula de desenvolvimento web",
   "main": "servidor.js",
   "scripts": {
     "dev": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FM-007/backend-aulaweb.git"
+  },
   "author": "Felipe Moreira",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FM-007/backend-aulaweb/issues"
+  },
+  "homepage": "https://github.com/FM-007/backend-aulaweb#readme",
   "dependencies": {
+    "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "nodemon": "^2.0.22",
-    "prettier": "^2.8.7"
+    "nodemon": "^2.0.22"
   }
 }

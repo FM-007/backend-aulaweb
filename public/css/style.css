@@ -1,0 +1,56 @@
+body {
+  background-color: cadetblue;
+  font-family: "Roboto Light", sans-serif;
+}
+
+form {
+  width: 300px;
+  height: 200px;
+  margin: 50px auto;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.box {
+  margin: 35px 0;
+}
+
+form input {
+  width: 280px;
+  height: 15px;
+  margin: 3px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+form input[type="submit"] {
+  position: relative;
+  top: 0;
+  left: 50px;
+  margin: 10px;
+  width: 190px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: cadetblue;
+}
+
+.box-resposta {
+  width: 300px;
+  height: 200px;
+  margin: 50px auto;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+.box-resposta h1 {
+  color: white;
+  text-align: center;
+}
+.box-resposta p {
+  color: white;
+}
