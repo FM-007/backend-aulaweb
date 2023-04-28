@@ -1,0 +1,10 @@
+body {
+    background-color: #617C8C;
+}
+#myCanvas {
+    background-color: #ffffff;
+    border: 1px solid #1F3140;
+    position: relative;
+    top: 50px;
+    left: 35%;
+}

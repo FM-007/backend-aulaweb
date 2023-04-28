@@ -1,0 +1,121 @@
+/** Estilização global **/
+:root {
+    --bg: #1F3140;
+    --bg-menu: #6B98BF;
+    --bg-section: #0D1C26;
+    --color-font-menu: #0D1C26;
+    --color-font01: #6B98BF;
+    --box-paragrafo: #617C8C;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+html body {
+    height: 100%;
+    background-color: var(--bg-section);
+}
+
+.center  {
+    max-width: 1280px;
+    padding: 0 2%;
+    margin: 0 auto;
+}
+
+.img {
+    min-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.w50 {
+    padding: 0 10px;
+    width: 50%;
+}
+
+.w33 {
+    padding: 0 15px;
+    width: 33.3%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+h2 {
+    color: var(--color-font01);
+    font-size: 35px;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: 9.5px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+/** Estilização global **/
+
+section.content {
+    height: 58rem;
+    padding: 60px 0;
+    background-color: var(--bg-section);
+}
+
+section.content #h2 {
+    margin-bottom: 20px;
+}
+
+section.content .box-table {
+    margin-top: 40px;
+    padding: 15px;
+    border: 1px solid var(--bg);
+    border-radius: 5px;
+}
+
+section.content .box-table table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+section.content .box-table table tr {
+    text-transform: uppercase;
+    color: var(--color-font01);
+}
+
+section.content .box-table table tr a {
+    text-decoration: none;
+    color: var(--color-font01);
+}
+
+section.content .box-table table th, td{
+    padding: 8px;
+    text-align: left;
+}
+
+section.content .box-table table th {
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 23px;
+    border-bottom: 1px solid var(--bg);
+    margin-bottom: 15px;
+}
+
+section.content .box-table table tr:not(:first-child):hover:nth-child(1n + 1) {
+    color: var(--color-font-menu);
+    background-color: var(--color-font01);
+}
+
+section.content .box-table table tr:hover a {
+    color: var(--color-font-menu);
+    background-color: var(--color-font01);
+}
+

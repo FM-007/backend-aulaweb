@@ -1,0 +1,204 @@
+/* Cores:
+    bisque
+    darkgreen
+    lightskyblue
+    lightgray
+    darkred
+    indigo
+    red
+    yellow */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    padding: 3px;
+    background-color: lightgray;
+}
+
+h2 {
+    text-align: center;
+}
+
+/*Seção Header*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 170px;
+    padding: 20px;
+    background-color: bisque;
+    border: 4px solid indigo;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+}
+
+.header h2 {
+    padding: 0 2%;
+    margin: 0 auto;
+    color: darkgreen;
+}
+
+#logo1 {
+    position: relative;
+    left: 0;
+}
+
+#logo2 {
+    position: relative;
+    right: 0;
+}
+
+/*Seção Menu*/
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: lightskyblue;
+}
+
+.menu a {
+    text-align: center;
+    text-decoration: none;
+    margin: 0 25px;
+    font-size: 15px;
+    font-weight: bold;
+    color: darkred;
+}
+
+/*Seção Introdução*/
+.box-paragrafo {
+    width: 100%;
+    padding: 10px;
+    height: 330px;
+    margin-top: 15px;
+}
+
+.box-paragrafo p {
+    position: relative;
+    top: 25px;
+    font-size: 20px;
+    color: indigo;
+    font-family: "SansSerif", sans-serif;
+}
+
+/*Seção Livros*/
+.livros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.livro-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 23px;
+}
+
+.box-livros {
+    max-width: 250px;
+    margin: 0 40px;
+}
+
+.box-livros img {
+    width: 100%;
+    height: 330px;
+}
+
+/*Seção Iframes*/
+.iframe {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.box-iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    padding: 15px;
+}
+
+.box-iframe iframe {
+    width: 300px;
+    height: 300px;
+    margin: 0 25px;
+}
+
+/*Seção Contatos*/
+.contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contatos table {
+    margin-top: 15px;
+    border: 5px dashed red;
+    width: 445px;
+}
+
+.contatos table th, td {
+    padding: 10px;
+    border: 1px solid red;
+}
+
+/*Seção Referencias*/
+.referencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.box-referencia {
+    width: 50%;
+    height: 120px;
+    background-color: yellow;
+}
+
+.box-referencia ul {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.box-referencia ul li span {
+    color: darkred;
+    margin-left: 90px;
+}
+
+/*Seção Footer*/
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: bisque;
+    padding: 15px;
+}
+
+.footer img {
+    max-width: 70px;
+    height: 80px;
+}
