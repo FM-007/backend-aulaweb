@@ -1,4 +1,4 @@
-const port = 3000;
+const port = 80;
 const http = require('http');
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -12,7 +12,7 @@ app.use(express.static('./public'));
 
 const server = http.createServer(app);
 
-app.get(["/", "/login"], (req, res) => {
+app.get("/login", (req, res) => {
   res.render("login")
 })
 
