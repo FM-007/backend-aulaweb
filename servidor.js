@@ -12,6 +12,10 @@ app.use(express.static('./public'));
 
 const server = http.createServer(app);
 
+app.get(["/", "/home"], (req, resp) => {
+  resp.redirect("./home.html")
+})
+
 app.get("/login", (req, res) => {
   res.render("login")
 })
